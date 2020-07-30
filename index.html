@@ -1,0 +1,1018 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<!-- Required meta tags -->
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+		<!-- Bootstrap CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+		<link href="https://fonts.googleapis.com/css2?family=Mrs+Saint+Delafield&family=Nothing+You+Could+Do&family=Open+Sans:wght@300&family=Poppins&family=Sacramento&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Adamina&family=Marck+Script&family=Righteous&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@600&family=Righteous&display=swap" rel="stylesheet">
+		<link href="https://css.gg/details-more.css" rel="stylesheet">
+		<link href='https://css.gg/details-less.css' rel='stylesheet'>
+		<style type="text/css">
+			
+			body {
+				font-family: 'Poppins', sans-serif;
+				font-size: 15px;
+				line-height: 30px;
+				font-weight: 400;
+				color: #F37B83;
+				background-color: #fff;
+				overflow-x: hidden;
+				margin: 0;
+
+			}
+
+			.full-screen-preview {
+				height: 100%;
+				padding: 0px;
+				margin: 0px;
+				overflow: hidden;
+			}
+
+			.content-left {
+				position: fixed;
+				background-color: #362B2E;
+				z-index: 1;
+			}
+
+			.col-7 {
+				padding-left: 0;
+				padding-right: 0;
+			}
+			.name-is {
+				margin: 40px;
+				padding-top: 100px;
+				font-size: 20px;
+				font-weight: 300;
+				color: #664D52;
+			}
+
+			.name {
+				margin: 40px;
+				font-size: 80px;
+				line-height: 94px;
+				font-weight: 800;
+				color: #f37b83;
+			}
+
+			.quote {
+				margin: 40px;
+				font-size: 30px;
+				text-align: justify;
+				padding-top: 30px;
+				font-family: 'Marck Script', cursive;
+			}
+
+			.social-media-links {
+				margin-left: 40px;
+				padding-top: 30px;
+				padding-bottom: 130px;
+				font-family: 'Adamina', serif;
+			}
+
+			.social-media-links a {
+				font-size: 11px;
+				color: #492D31;
+				margin-right: 10px;
+			}
+
+			.fa-element {
+				font-size: 60px;
+				margin: 30px;
+				color: #A8858F;
+			}
+
+			.grid {
+				margin: 50px;
+				display: grid;
+				grid-template-areas:
+				"one one two two"
+				"one one two two"
+				"three three four four"
+				"three three four four";
+				gap: 30px;
+				grid-template-columns: repeat(4, 1fr);
+				grid-template-rows: repeat(4, 150px);
+			}
+
+			.grid > * {
+				background-color: #362A2E;
+				border-radius: 5px;
+				padding: 10px;
+			}
+
+			.grid h1 {
+				margin-left: 30px;
+				font-family: 'Righteous', cursive;
+				color: #F37B83;
+			}
+
+			.grid p {
+				margin-left: 30px;
+				color: #A8858F;
+				font-size: 16px;
+			}
+
+			.one {
+				grid-area: one;
+				border-radius: 10px;
+			}
+
+			.two {
+				grid-area: two;
+				border-radius: 10px;
+			}
+
+			.three {
+				grid-area: three;
+				border-radius: 10px;
+			}
+
+			.four {
+				grid-area: four;
+				border-radius: 10px;
+			}
+
+			
+
+			/* The side navigation menu */
+.sidenav {
+  height: 100%; /* 100% Full-height */
+  width: 0; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  background-color: #F37B83; /* Black*/
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 60px; /* Place content 60px from the top */
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+/* The navigation menu links */
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #FDEEEF;
+  display: block;
+  transition: 0.3s;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+}
+
+.full-width-section .section-wrapper {
+    padding: 0 0 0 5%;
+    margin: 0;
+    display: flex;
+    display: -webkit-flex;
+    align-items: center;
+    background-color: #f9f0ff;
+}
+.tilesWrap {
+	padding: 0;
+	margin: 50px auto;
+	list-style: none;
+	text-align: center;
+}
+.tilesWrap li {
+	display: inline-block;
+	width: 30%;
+	min-width: 200px;
+	max-width: 230px;
+	padding: 80px 30px 40px;
+	position: relative;
+	vertical-align: top;
+	margin: 30px;
+	min-height: 25vh;
+	text-align: left;
+}
+.tilesWrap li h2 {
+	font-size: 114px;
+	margin: 0;
+	position: absolute;
+	opacity: 0.2;
+	top: 50px;
+	right: 10px;
+	transition: all 0.3s ease-in-out;
+}
+.tilesWrap li h3 {
+	font-size: 20px;
+	margin-bottom: 5px;
+}
+.tilesWrap li p {
+	font-size: 16px;
+	line-height: 18px;
+	color: #b7b7b7;
+	margin-top: 5px;
+}
+.tilesWrap li button {
+	background: transparent;
+	border: 1px solid #b7b7b7;
+	padding: 10px 20px;
+	color: #b7b7b7;
+	border-radius: 3px;
+	position: relative;
+	transition: all 0.3s ease-in-out;
+	transform: translateY(-40px);
+	opacity: 0;
+	cursor: pointer;
+	overflow: hidden;
+}
+.tilesWrap li button:before {
+	content: '';
+	position: absolute;
+	height: 100%;
+	width: 120%;
+	background: #b7b7b7;
+	top: 0;
+	opacity: 0;
+	left: -140px;
+	border-radius: 0 20px 20px 0;
+	z-index: -1;
+	transition: all 0.3s ease-in-out;
+	
+}
+.tilesWrap li:hover button {
+	transform: translateY(5px);
+	opacity: 1;
+}
+.tilesWrap li button:hover {
+	color: #262a2b;
+}
+.tilesWrap li button:hover:before {
+	left: 0;
+	opacity: 1;
+}
+.tilesWrap li:hover h2 {
+	top: 0px;
+	opacity: 0.6;
+}
+
+.tilesWrap li:before {
+	content: '';
+	position: absolute;
+	top: -2px;
+	left: -2px;
+	right: -2px;
+	bottom: -2px;
+	z-index: -1;
+	background: #fff;
+	transform: skew(2deg, 2deg);
+}
+.tilesWrap li:after {
+	content: '';
+	position: absolute;
+	width: 40%;
+	height: 100%;
+	left: 0;
+	top: 0;
+	background: rgba(255, 255, 255, 0.02);
+}
+.tilesWrap li:nth-child(1):before {
+	background: #C9FFBF;
+background: -webkit-linear-gradient(to right, #FFAFBD, #C9FFBF);
+background: linear-gradient(to right, #FFAFBD, #C9FFBF);
+}
+.tilesWrap li:nth-child(2):before {
+	background: #f2709c;
+background: -webkit-linear-gradient(to right, #ff9472, #f2709c);
+background: linear-gradient(to right, #ff9472, #f2709c);
+}
+.tilesWrap li:nth-child(3):before {
+	background: #c21500;
+background: -webkit-linear-gradient(to right, #ffc500, #c21500);
+background: linear-gradient(to right, #ffc500, #c21500);
+}
+.tilesWrap li:nth-child(4):before {
+	background: #FC354C;
+background: -webkit-linear-gradient(to right, #0ABFBC, #FC354C);
+background: linear-gradient(to right, #0ABFBC, #FC354C);
+}
+
+.button-group-wrapper {
+	margin-top: 50px;
+	margin-left: 50px;
+}
+
+a.button {
+    display: inline-block;
+    color: #faefff;
+    border: 2px solid #f37b83;
+    text-align: center;
+    padding: 12px 38px;
+    cursor: pointer;
+    vertical-align: middle;
+    text-decoration: none;
+    border-radius: 50px;
+    transition: all .2s linear;
+}
+a.button:hover {
+	background-color: #f37b83;
+}
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+  transition: margin-left .5s;
+  padding: 20px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 30px;}
+  .sidenav a {font-size: 18px;}
+}
+		</style>
+		<script type="text/javascript">
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+}
+
+/* Set the width of the side navigation to 0 */
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+			</script>
+
+		<style type="text/css">
+			
+
+			.circle-chart__circle {
+				animation: circle-chart-fill 2s reverse; /* 1 */ 
+				transform: rotate(-90deg); /* 2, 3 */
+				transform-origin: center; /* 4 */
+			}
+
+			.circle-chart__circle--negative {
+				transform: rotate(-90deg) scale(1,-1); /* 1, 2, 3 */
+			}
+
+			.circle-chart__info {
+			animation: circle-chart-appear 2s forwards;
+			opacity: 0;
+			transform: translateY(0.3em);
+			}
+
+			@keyframes circle-chart-fill {
+				to { stroke-dasharray: 0 100; }
+			}
+
+			@keyframes circle-chart-appear {
+				to {
+				opacity: 1;
+				transform: translateY(0);
+				}
+			}
+
+			.grid-skills {
+			display: grid;
+			grid-column-gap: 1em;
+			grid-row-gap: 1em;
+			grid-template-columns: repeat(1, 1fr);
+			margin: 50px;
+			}
+
+			@media (min-width: 31em) {
+			.grid-skills {
+				grid-template-columns: repeat(2, 1fr);
+				}
+			}
+
+			.skill-circle-text {
+				font-size: 22px;
+				color: #f37b83;
+				text-align: center;
+				padding-top: 20px;
+				letter-spacing: -1px;
+				margin-bottom: 0;
+			}
+
+			.skills {
+				width: 100%;
+				max-width: 960px;
+				height: 780px;
+				margin-left: 50px;
+
+				position: relative;
+			}
+
+			.lines {
+				height: 100%;
+				position: relative;
+				list-style: none;
+			}
+			.line {
+				height: 70%;
+				width: 2px;
+
+				position: absolute;
+				border-left: 1px solid #F37B83;
+				background: rgba(#eee, 0.6);
+			}
+			.line__label {
+				display: block;
+				width: 120px;
+				text-align: center;
+				font-size: 20px;
+				position: absolute;
+				bottom: -20px;
+				right: -50px;
+			}
+
+			.charts {
+				width: 100%;
+				height: 100%;
+				position: absolute;
+				top: 0;
+				left: 0;
+				z-index: 10;
+			}
+				
+
+			.chart__title {
+				display: block;
+				margin: 0 0 10px;
+
+				font-weight: bold;
+
+				opacity: 0;
+
+				animation: 1s anim-lightspeed-in ease forwards;
+
+				.chart--dev & {}
+				.chart--prod & {
+					animation-delay: 3.3s;
+				}
+				.chart--design & {
+					animation-delay: 4.5s;
+				}
+			}
+
+			.chart--horiz {
+				overflow: hidden;
+				padding: 0;
+			}
+
+			.chart__bar {
+
+				background: linear-gradient(to left, #554247, #F37B83);
+				border-top-right-radius: $border-rad;
+				border-bottom-right-radius: $border-rad;
+				opacity: 0;
+
+				animation: 1s anim-lightspeed-in ease forwards;
+			}
+
+			.chart__label {
+				padding-left: 10px;
+				line-height: 30px;
+				color: white;
+			}
+			.l--0 {
+				left: 0;
+			}
+			.l--25 {
+				left: 25%;
+			}
+			.l--50 {
+				left: 50%;
+			}
+			.l--75 {
+				left: 75%;
+			}
+			.l--100 {
+				left: calc(100% - 1px);
+			}
+			.get-in-touch-text {
+				margin-left: 50px;
+			}
+
+			.get-in-touch {
+				margin:0;
+				padding:0;
+				font-family: sans-serif;
+				background: linear-gradient(#141e30, #243b55);
+			}
+
+			.login-box {
+				top: 50%;
+				left: 50%;
+				width: 90%;
+				height: auto;
+				padding: 40px;
+				background: #F37B83;
+				box-sizing: border-box;
+				border-radius: 10px;
+				margin-left: 50px;
+				margin: 50px;
+			}
+
+			.login-box .user-box {
+				position: relative;
+				width: 90%;
+				margin-left: 20px;
+			}
+
+			.login-box .user-box input {
+				width: 100%;
+				padding: 10px 0;
+				font-size: 16px;
+				color: #fff;
+				margin-bottom: 30px;
+				border: none;
+				border-bottom: 1px solid #fff;
+				outline: none;
+				background: transparent;
+			}
+			.login-box .user-box label {
+				position: absolute;
+				top:0;
+				left: 0;
+				padding: 10px 0;
+				font-size: 16px;
+				color: #fff;
+				pointer-events: none;
+				transition: .5s;
+			}
+
+			.login-box .user-box input:focus ~ label,
+			.login-box .user-box input:valid ~ label {
+				top: -20px;
+				left: 0;
+				color: #fff;
+				font-size: 12px;
+			}
+
+			.login-box form a {
+				position: relative;
+				display: inline-block;
+				padding: 10px 20px;
+				color: #fff;
+				font-size: 20px;
+				text-decoration: none;
+				text-transform: uppercase;
+				overflow: hidden;
+				transition: .5s;
+				margin-top: 40px;
+				letter-spacing: 4px
+			}
+
+			.login-box a:hover {
+				background: #f37b83;
+				color: #fff;
+				border-radius: 5px;
+				box-shadow: 0 0 5px #f37b83,
+				0 0 25px #c6666c,
+				0 0 50px #9c5256,
+				0 0 100px #733e41;
+			}
+
+			.login-box a span {
+				position: absolute;
+				display: block;
+			}
+
+			.login-box a span:nth-child(1) {
+				top: 0;
+				left: -100%;
+				width: 100%;
+				height: 2px;
+				background: linear-gradient(90deg, transparent, #03e9f4);
+				animation: btn-anim1 1s linear infinite;
+			}
+
+			@keyframes btn-anim1 {
+				0% {
+					left: -100%;
+				}
+				50%,100% {
+					left: 100%;
+				}
+			}
+
+			.login-box a span:nth-child(2) {
+				top: -100%;
+				right: 0;
+				width: 2px;
+				height: 100%;
+				background: linear-gradient(180deg, transparent, #03e9f4);
+				animation: btn-anim2 1s linear infinite;
+				animation-delay: .25s
+			}
+
+			@keyframes btn-anim2 {
+				0% {
+					top: -100%;
+				}
+				50%,100% {
+					top: 100%;
+				}
+			}
+
+			.login-box a span:nth-child(3) {
+				bottom: 0;
+				right: -100%;
+				width: 100%;
+				height: 2px;
+				background: linear-gradient(270deg, transparent, #03e9f4);
+				animation: btn-anim3 1s linear infinite;
+				animation-delay: .5s
+			}
+
+			@keyframes btn-anim3 {
+				0% {
+					right: -100%;
+				}
+				50%,100% {
+					right: 100%;
+				}
+			}
+
+			.login-box a span:nth-child(4) {
+				bottom: -100%;
+				left: 0;
+				width: 2px;
+				height: 100%;
+				background: linear-gradient(360deg, transparent, #03e9f4);
+				animation: btn-anim4 1s linear infinite;
+				animation-delay: .75s
+			}
+
+			@keyframes btn-anim4 {
+				0% {
+					bottom: -100%;
+				}
+				50%,100% {
+					bottom: 100%;
+				}
+			}
+
+
+			@keyframes anim-lightspeed-in {
+				0% {
+					transform: translateX(-200%);
+					opacity: 1;
+				}
+				100% {
+					transform: translateX(0);
+					opacity: 1;
+				}
+			}
+		</style>
+
+		<title>Sruthi</title>
+	</head>
+	<body>
+		<div class="container-fluid">
+			<div class="row">
+				<div class="content-left">
+					<span onclick="openNav()">
+						<i class="gg-details-more" style="margin: 20px;"></i>
+					</span>
+					<div id="mySidenav" class="sidenav">
+						<a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><i class="gg-details-less" style="margin-top: 20px;"></i></a>
+						<a href="#" style="margin-top: 60px;">Home</a>
+						<a href="#">Services</a>
+						<a href="#">Portfolio</a>
+						<a href="#">Resume</a>
+						<a href="#">Skills</a>
+						<a href="#">Contact</a>
+					</div>
+				</div>
+				<div class="col-1" style="background-color: #362B2E;">
+					
+					  
+				</div>
+				<div class="col-4" style="background-color: #F9F0FF;">
+					<p class="name-is">
+						Hello. My Name is
+					</p>
+					<h1 class="name">
+						Amy Stone
+					</h1>
+					<p class="quote">
+						You were born with the ability to change someone's life, Don't ever waste it.
+					</p>
+					<div class="social-media-links">
+						<a href="https://www.linkedin.com/in/sruthi-j-t-0344b3110" target="_blank">LINKEDIN</a>
+						<a href="https://github.com/Sruthi-Jayaraj/" target="_blank">GITHUB</a>
+						<a href="https://twitter.com/JtSruthi" target="_blank">TWITTER</a>
+						<a href="https://www.instagram.com/sruthijayaraj/" target="_blank">INSTAGRAM</a>
+					</div>
+				</div>
+				<div class="col-7">
+					<img src="s.jpg" class="img-fluid" alt="Image Not Displayed">
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-1" style="background-color: #362B2E;">
+					
+				</div>
+				<div class="col-11" style="background-color: #302729">
+					<div class="grid">
+						<div class="one">
+							<i class="fas fa-layer-group fa-element"></i>
+							<h1>
+								Design
+							</h1>
+							<p>
+								Designing Websites and Web Applications using HTML, CSS, Bootstrap and JavaScript.
+							</p>
+						</div>
+						<div class="two">
+							<i class="far fa-file-code fa-element"></i>
+							<h1>
+								Develop
+							</h1>
+							<p>
+								Web Development using .NET, C#, PHP,CodeIgniter, Python, MSSQL, PostgreSQL, jQuery,Rest API and Ajax.
+							</p>
+							<p>IoT based Application Development</p>
+						</div>
+						<div class="three">
+							<i class="fab fa-windows fa-element"></i>
+							<h1>
+								Cloud
+							</h1>
+							<p>
+								Cloud based technologies like Microsoft Azure, Amazon Web Services and Google Cloud Platform.
+							</p>
+							<p>Certified AZ-900: Microsoft Azure Fundamentals</p>
+						</div>
+						<div class="four">
+							<i class="fas fa-terminal fa-element"></i>
+							<h1>
+								Terminal
+							</h1>
+							<p>
+								Linux and Windows based scripting such as Bash Scripting.
+							</p>
+						</div>
+					</div>
+					<div class="button-group-wrapper">
+						<a href="sruthiResume.pdf" download="ResumeSruthiJayaraj" class="button" target="_blank">Download Resume</a>
+						
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-1" style="background-color: #362B2E;">
+					
+				</div>
+				<div class="col-11" style="background: #302729;">
+					<h1 style="margin: 50px; font-family: 'Righteous', cursive;">Experience</h1>
+					<ul class="tilesWrap">
+						<li>
+							<h2>01</h2>
+							<h3>C-DIT</h3>
+							<p>
+								Software Development Experience in Center for Development of Imaging Technology using PHP, C# and MySQL. 
+							</p>
+							<button>Read more</button>
+						</li>
+						<li>
+							<h2>02</h2>
+							<h3>QLEAP</h3>
+							<p>
+								Software Development Experience using CodeIgniter, JS, jQuery, Rest API, Bootstrap, MSSQL, Ajax and cPanel.
+							</p>
+							<button>Read more</button>
+						</li>
+						<li>
+							<h2>03</h2>
+							<h3>PARTHEON</h3>
+							<p>
+								Software Development using Asp.Net, MVC, JS, Rest API, Azure, Mosquitto, MSSQL, PostgreSQL and GitHub.
+							</p>
+							<button>Read more</button>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-1" style="background-color: #362B2E;">
+					
+				</div>
+				<div class="col-11" style="background-color: #302729">
+					<h1 style="margin: 50px;">Cover Letter</h1>
+					<p style="font-family: 'Mrs Saint Delafield', cursive; margin-left: 50px; font-size: 40px;">
+						Sruthi JT
+					</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-1" style="background-color: #362B2E;">
+					
+				</div>
+				<div class="col-11" style="background-color: #302729">
+					<h1 style="margin: 50px;">Skills</h1>
+					<div class="grid-skills">
+						<section>
+							<svg class="circle-chart" style="margin-right: 50px;" viewbox="0 0 33.83098862 33.83098862" width="180" height="310" xmlns="http://www.w3.org/2000/svg">
+								<circle class="circle-chart__background" stroke="#554247" stroke-width="2" fill="none" cx="16.91549431" cy="16.91549431" r="13.91549431" />
+								<circle class="circle-chart__circle circle-chart__circle--negative" stroke="#F37B83" stroke-width="6" stroke-dasharray="85,100" stroke-linecap="stroke" fill="none" cx="16.91549431" cy="16.91549431" r="13.91549431" />
+								<g class="circle-chart__info" fill="#F37B83">
+									<text class="circle-chart__percent" x="16.91549431" y="15.5" alignment-baseline="central" text-anchor="middle" font-size="10">85%</text>
+								</g>
+								<text class="circle-chart__subline" x="16.91549431" y="38.5" alignment-baseline="central" text-anchor="middle" font-size="4" fill="#F37B83">.NET</text>
+							</svg>
+							<svg class="circle-chart" viewbox="0 0 33.83098862 33.83098862" width="180" height="310" xmlns="http://www.w3.org/2000/svg">
+								<circle class="circle-chart__background" stroke="#554247" stroke-width="2" fill="none" cx="16.91549431" cy="16.91549431" r="13.91549431" />
+								<circle class="circle-chart__circle circle-chart__circle--negative" stroke="#F37B83" stroke-width="6" stroke-dasharray="80,100" stroke-linecap="stroke" fill="none" cx="16.91549431" cy="16.91549431" r="13.91549431" />
+								<g class="circle-chart__info" fill="#F37B83">
+									<text class="circle-chart__percent" x="16.91549431" y="15.5" alignment-baseline="central" text-anchor="middle" font-size="10">80%</text>
+								</g>
+								<text class="circle-chart__subline" x="16.91549431" y="38.5" alignment-baseline="central" text-anchor="middle" font-size="4" fill="#F37B83">CodeIgniter</text>
+							</svg>
+						</section>
+						<section>
+							<svg class="circle-chart" style="margin-right: 50px;" viewbox="0 0 33.83098862 33.83098862" width="180" height="310" xmlns="http://www.w3.org/2000/svg">
+								<circle class="circle-chart__background" stroke="#554247" stroke-width="2" fill="none" cx="16.91549431" cy="16.91549431" r="13.91549431" />
+								<circle class="circle-chart__circle circle-chart__circle--negative" stroke="#F37B83" stroke-width="6" stroke-dasharray="70,100" stroke-linecap="stroke" fill="none" cx="16.91549431" cy="16.91549431" r="13.91549431" />
+								<g class="circle-chart__info" fill="#F37B83">
+									<text class="circle-chart__percent" x="16.91549431" y="15.5" alignment-baseline="central" text-anchor="middle" font-size="10">70%</text>
+								</g>
+								<text class="circle-chart__subline" x="16.91549431" y="38.5" alignment-baseline="central" text-anchor="middle" font-size="4" fill="#F37B83">Azure</text>
+							</svg>
+							<svg class="circle-chart" viewbox="0 0 33.83098862 33.83098862" width="180" height="310" xmlns="http://www.w3.org/2000/svg">
+								<circle class="circle-chart__background" stroke="#554247" stroke-width="2" fill="none" cx="16.91549431" cy="16.91549431" r="13.91549431" />
+								<circle class="circle-chart__circle circle-chart__circle--negative" stroke="#F37B83" stroke-width="6" stroke-dasharray="60,100" stroke-linecap="stroke" fill="none" cx="16.91549431" cy="16.91549431" r="13.91549431" />
+								<g class="circle-chart__info" fill="#F37B83">
+									<text class="circle-chart__percent" x="16.91549431" y="15.5" alignment-baseline="central" text-anchor="middle" font-size="10">60%</text>
+								</g>
+								<text class="circle-chart__subline" x="16.91549431" y="38.5" alignment-baseline="central" text-anchor="middle" font-size="4" fill="#F37B83">IoT</text>
+							</svg>
+						</section>
+
+					</div>
+
+				</div>
+				
+			</div>
+			<div class="row">
+				<div class="col-1" style="background-color: #362B2E;">
+					
+				</div>
+				<div class="col-11" style="background-color: #302729">
+					<h1 style="margin: 50px;">Development Skills</h1>
+					<div class="skills">
+						<ul class="lines">
+							<li class="line l--0">
+								<span class="line__label title">
+								Skill Level
+								</span>
+							</li>
+							<li class="line l--25">
+								<span class="line__label">
+								The basics
+								</span>
+							</li>
+							<li class="line l--50">
+								<span class="line__label">
+								Advanced
+								</span>
+							</li>
+							<li class="line l--75">
+								<span class="line__label">
+								Seasoned
+								</span>
+							</li>
+							<li class="line l--100">
+								<span class="line__label" style="text-align: left;">
+								Expert
+								</span>
+							</li>
+						</ul>
+						<div class="charts">
+							<div class="chart chart--dev">
+								<ul class="chart--horiz" style="list-style-type:none;">
+									<li class="chart__bar" style="width: 98%; margin-bottom: 20px;">
+									  <span class="chart__label">
+									    HTML5
+									  </span>
+									</li>
+									<li class="chart__bar" style="width: 98%; margin-bottom: 20px;">
+									  <span class="chart__label">
+									    CSS3 & SCSS & CSS in JS
+									  </span>
+									</li>
+									<li class="chart__bar" style="width: 70%; margin-bottom: 20px;">
+									  <span class="chart__label">
+									    JavaScript
+									  </span>
+									</li>
+									<li class="chart__bar" style="width: 85%; margin-bottom: 20px;">
+									  <span class="chart__label">
+									    CodeIgniter
+									  </span>
+									</li>
+									<li class="chart__bar" style="width: 75%; margin-bottom: 20px;">
+									  <span class="chart__label">
+									    PHP
+									  </span>
+									</li>
+									<li class="chart__bar" style="width: 60%; margin-bottom: 20px;">
+									  <span class="chart__label">
+									    jQuery
+									  </span>
+									</li>
+									<li class="chart__bar" style="width: 80%; margin-bottom: 20px;">
+									  <span class="chart__label">
+									    .NET MVC
+									  </span>
+									</li>
+									<li class="chart__bar" style="width: 70%; margin-bottom: 20px;">
+									  <span class="chart__label">
+									    Azure
+									  </span>
+									</li>
+									<li class="chart__bar" style="width: 90%; margin-bottom: 20px;">
+									  <span class="chart__label">
+									    .NET
+									  </span>
+									</li>
+									<li class="chart__bar" style="width: 98%; margin-bottom: 20px;">
+									  <span class="chart__label">
+									    MSSQL
+									  </span>
+									</li>
+									<li class="chart__bar" style="width: 60%; margin-bottom: 20px;">
+									  <span class="chart__label">
+									    IoT
+									  </span>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-1" style="background-color: #362B2E;">
+					
+				</div>
+				<div class="col-11" style="background-color: #302729">
+					<h1 style="margin: 50px;">Get In Touch</h1>
+					<p class="get-in-touch-text"><span style="font-size: 20px;">Address: </span>Sree Sailam, Kilimanoor, Trivandrum</p>
+					<p class="get-in-touch-text"><span style="font-size: 20px;">Email: </span>sruthijayaraj91@icloud.com</p>
+					<p class="get-in-touch-text"><span style="font-size: 20px;">Website: </span>www.sruthijayaraj.co</p>
+				</div>
+			</div>
+			
+			<div class="row">
+				<div class="col-1" style="background-color: #362B2E;">
+					
+				</div>
+				<div class="col-11" style="background-color: #302729">
+					<div class="login-box">
+						<form>
+							<div class="user-box">
+								<input type="text" name="name" required="">
+								<label>Name</label>
+							</div>
+							<div class="user-box">
+								<input type="text" name="email" required="">
+								<label>Email</label>
+							</div>
+							<div class="user-box">
+								<input type="text" name="subject" required="">
+								<label>Subject</label>
+							</div>
+							<div class="user-box" style="margin-top: 70px;">
+								<input type="text" name="message" required="">
+								<label>Messagae</label>
+							</div>
+							<div align="center">
+								<a href="#">
+									<span></span>
+									<span></span>
+									<span></span>
+									<span></span>
+									Submit
+								</a>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Optional JavaScript -->
+		<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+		<script src="https://kit.fontawesome.com/4eac8510e7.js"></script>
+	</body>
+</html>
