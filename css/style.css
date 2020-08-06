@@ -48,6 +48,9 @@ body {
 	padding-left: 0px;
 	padding-right: 0px;
 }
+.gg-icon {
+	margin: 30px 8px 8px 8px;
+}
 .name-is {
 	margin: 40px;
 	font-size: 20px;
@@ -454,7 +457,7 @@ body {
 	list-style-type:none;
 }
 .chart__bar {
-	background: linear-gradient(to left, #f3917b, #f37d7b, #f37d7b, #F37B83);
+	background: linear-gradient(to right, #f3917b, #f37d7b, #f37d7b, #F37B83);
 	border-top-right-radius: $border-rad;
 	border-bottom-right-radius: $border-rad;
 	opacity: 0;
@@ -494,7 +497,9 @@ body {
 	margin:0;
 	padding:0;
 	font-family: sans-serif;
-	background: linear-gradient(#141e30, #243b55);
+}
+.get-in-touch-subhead {
+	font-size: 20px;
 }
 .login-box {
 	top: 50%;
@@ -502,7 +507,7 @@ body {
 	width: 90%;
 	height: auto;
 	padding: 40px;
-	background: #F37B83;
+	background-image: linear-gradient(#F37B83, #f37b8d, #f37b97, #f37ba1);
 	box-sizing: border-box;
 	border-radius: 10px;
 	margin: 50px 0px 50px 50px;
@@ -654,24 +659,25 @@ body {
 /* The side navigation menu */
 .sidenav {
 	height: 100%; /* 100% Full-height */
-	width: 0; /* 0 width - change this with JavaScript */
+	width: 0px; /* 0 width - change this with JavaScript */
 	position: fixed; /* Stay in place */
 	z-index: 1; /* Stay on top */
 	top: 0; /* Stay at the top */
 	left: 0;
 	background-color: #F37B83; /* Black*/
 	overflow-x: hidden; /* Disable horizontal scroll */
-	padding-top: 60px; /* Place content 60px from the top */
+	padding-top: 20px; /* Place content 60px from the top */
 	transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
 }
 	/* The navigation menu links */
 .sidenav a {
-	padding: 8px 8px 8px 32px;
+	padding: 8px 8px 8px 8px;
 	text-decoration: none;
-	font-size: 25px;
+	font-family: 'Poppins', sans-serif;
+	font-size: 16px;
 	color: #FDEEEF;
 	display: block;
-	transition: 0.3s;
+	transition: 0.7s;
 }
 	/* When you mouse over the navigation links, change their color */
 .sidenav a:hover {
@@ -697,13 +703,26 @@ a.button {
 a.button:hover {
 	background-color: #f37b83;
 }
-	/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+.button-style {
+	background-color: #f37ba1; 
+	color: #fff; font-size: 20px; 
+	border: none; 
+	outline: none;
+}
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
 @media screen and (max-height: 450px) {
 	.sidenav {padding-top: 30px;}
 	.sidenav a {font-size: 18px;}
 }
 .signature {
 	font-family: 'Mrs Saint Delafield', cursive; 
-	margin-left: 50px; 
+	margin: 50px 0px 50px 0px; 
 	font-size: 40px;
+}
+footer i {
+	color: #F37B83;
+}
+.footer-style {
+	background-color: #613642; 
+	padding: 50px;
 }

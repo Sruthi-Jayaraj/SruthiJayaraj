@@ -6,11 +6,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 		<!-- Bootstrap CSS -->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-		<link href="https://fonts.googleapis.com/css2?family=Mrs+Saint+Delafield&family=Nothing+You+Could+Do&family=Open+Sans:wght@300&family=Poppins&family=Sacramento&display=swap" rel="stylesheet">
-		<link href="https://fonts.googleapis.com/css2?family=Adamina&family=Marck+Script&family=Righteous&display=swap" rel="stylesheet">
-		<link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@600&family=Righteous&display=swap" rel="stylesheet">
-		<link href="https://fonts.googleapis.com/css2?family=ABeeZee&display=swap" rel="stylesheet">
-		<link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=ABeeZee&family=Adamina&family=Mrs+Saint+Delafield&family=Poppins:wght@600&family=Righteous&display=swap" rel="stylesheet">
 		<link href="https://css.gg/details-more.css" rel="stylesheet">
 		<link href='https://css.gg/details-less.css' rel='stylesheet'>
 		<link rel="stylesheet" type="text/css" href="css/style.css">
@@ -19,20 +15,21 @@
 	</head>
 	<body>
 		<div class="container-fluid">
-			<div class="row">
+			<div class="row" id="home">
 				<div class="col-1">
 					<div class="content-left">
 						<span onclick="openNav()">
-							<i class="gg-details-more" style="margin: 20px;"></i>
+							<i class="gg-details-more gg-icon"></i>
 						</span>
 						<div id="mySidenav" class="sidenav">
 							<a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><i class="gg-details-less" style="margin-top: 20px;"></i></a>
-							<a href="#" style="margin-top: 60px;">Home</a>
-							<a href="#">Services</a>
-							<a href="#">Portfolio</a>
-							<a href="#">Resume</a>
-							<a href="#">Skills</a>
-							<a href="#">Contact</a>
+							<a href="#home" style="margin-top: 60px;">Home</a>
+							<a href="#services">Services</a>
+							<a href="#experience">Experience</a>
+							<a href="#story">Story</a>
+							<a href="#core-skills-row">Core Skills</a>
+							<a href="#advanced-skills">Advanced Skills</a>
+							<a href="#get-in-touch">Get In Touch</a>
 						</div>
 					</div>
 				</div>
@@ -65,7 +62,7 @@
 					<img src="images/s.jpg" style="height: 822px;" class="img-fluid" alt="Image Not Found">
 				</div>
 			</div>
-			<div class="row">
+			<div class="row" id="services">
 				<div class="col-1"></div>
 				<div class="col-11">
 					<div class="grid">
@@ -114,7 +111,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="row">
+			<div class="row" id="experience">
 				<div class="col-12" align="center">
 					<h1 class="experience-head">Experience</h1>
 					<ul class="tilesWrap">
@@ -145,7 +142,7 @@
 					</ul>
 				</div>
 			</div>
-			<div class="row">
+			<div class="row" id="story">
 				<div class="col-12">
 					<h1 class="story-head" align="center">Story</h1>
 					<div class="story">
@@ -198,7 +195,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="row">
+			<div class="row" id="core-skills-row">
 				<div class="col-8 offset-2" align="center">
 					<h1 class="skills-head">Core Skills</h1>
 					<div class="row" id="core-skills">
@@ -245,7 +242,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="row">
+			<div class="row" id="advanced-skills">
 				<div class="col-10 offset-1">
 					<h1 class="advanced-skill-head" align="center">Advanced Skills</h1>
 					<div class="skills" id="adv-skills">
@@ -340,11 +337,11 @@
 					</div>
 				</div>
 			</div>
-			<div class="row">
+			<div class="row" id="get-in-touch">
 				<div class="col-10 offset-1" align="center">
 					<h1 class="get-in-touch-head">Get In Touch</h1>
 					<div class="login-box">
-						<form>
+						<form id="submit-form" action="">
 							<div class="user-box">
 								<input type="text" name="name" required="">
 								<label>Name</label>
@@ -367,7 +364,7 @@
 									<span></span>
 									<span></span>
 									<span></span>
-									Submit
+									<input type="submit" name="SUBMIT" class="button-style">
 								</a>
 							</div>
 						</form>
@@ -379,33 +376,28 @@
 				<div class="col-11" align="center">
 					
 					<p class="get-in-touch-text">
-						<span style="font-size: 20px;">Address: </span>Sree Sailam, Kilimanoor, Trivandrum
+						<span class="get-in-touch-subhead">Address: </span>Sree Sailam, Kilimanoor, Trivandrum
 					</p>
 					<p class="get-in-touch-text">
-						<span style="font-size: 20px;">Email: </span>sruthijayaraj91@icloud.com
+						<span class="get-in-touch-subhead">Email: </span>sruthijayaraj91@icloud.com
 					</p>
 					<p class="get-in-touch-text">
-						<span style="font-size: 20px;">Website: </span>www.sruthijayaraj.co
+						<span class="get-in-touch-subhead">Website: </span>www.sruthijayaraj.co
 					</p>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-10 offset-1" align="center">
-					<h1 class="coverletter-head">Cover Letter</h1>
 					<p class="signature">
 						Sruthi JT
 					</p>
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-12" style="padding-left: 0px; padding-right: 0px;">
-					<footer class="page-footer font-small" align="center" style="background-color: #613642; padding: 50px; color: #a3a3a3;">
+				<div class="col-12">
+					<footer class="page-footer font-small footer-style" align="center">
 					<!-- Facebook -->
-						<a class="gh-ic">
+						<a class="gh-ic" href="https://github.com/Sruthi-Jayaraj/" target="_blank">
 							<i class="fab fa-github fa-lg white-text mr-md-5 mr-3 fa-2x  footer-icon fa-top-github"> </i>
 						</a>
 							<!-- Twitter -->
-						<a class="tw-ic">
+						<a class="tw-ic" href="https://twitter.com/JtSruthi" target="_blank">
 							<i class="fab fa-twitter fa-lg white-text mr-md-5 mr-3 fa-2x footer-icon fa-top-twitter fa-twitter"> </i>
 						</a>
 							<!-- Google +-->
@@ -413,11 +405,11 @@
 							<i class="fab fa-google-plus-g fa-lg white-text mr-md-5 mr-3 fa-2x footer-icon fa-top-gplus"> </i>
 						</a>
 							<!--Linkedin -->
-						<a class="li-ic">
+						<a class="li-ic" href="https://www.linkedin.com/in/sruthi-j-t-0344b3110" target="_blank">
 							<i class="fab fa-linkedin-in fa-lg white-text mr-md-5 mr-3 fa-2x footer-icon fa-top-linkedin fa-top-linkedin"> </i>
 						</a>
 							<!--Instagram-->
-						<a class="ins-ic">
+						<a class="ins-ic" href="https://www.instagram.com/sruthijayaraj/" target="_blank">
 							<i class="fab fa-instagram fa-lg white-text mr-md-5 mr-3 fa-2x footer-icon fa-top-instagram fa-top-instagram"> </i>
 						</a>
 							<!--Pinterest-->
@@ -432,8 +424,27 @@
 		<!-- jQuery first, then Popper.js, then Bootstrap JS -->
 		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 		<script src="https://kit.fontawesome.com/4eac8510e7.js"></script>
 		<script type="text/javascript" src="js/myProfile.js"></script>
+		<script>
+			$("#submit-form").submit((e)=>{
+				e.preventDefault()
+				$.ajax({
+					url:"https://script.google.com/macros/s/AKfycbyAiBra_yurxnpr-miH-MrQJQX4QO3bpC-OWYNYNg/exec",
+					data:$("#submit-form").serialize(),
+					method:"post",
+					success:function (response){
+						//alert("Form submitted successfully")
+						//window.location.reload()
+						window.location.href="thanks.html"
+					},
+					error:function (err){
+						alert("Something Error")
+					}
+				})
+			})
+		</script>
 	</body>
 </html>
