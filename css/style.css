@@ -339,6 +339,9 @@ body {
 	margin: 50px 0px 50px 0px;
 	font-family: 'Righteous', cursive;
 }
+#core-skills:hover {
+	
+}
 .circle-chart__circle {
 	animation: circle-chart-fill 2s reverse; /* 1 */ 
 	transform: rotate(-90deg); /* 2, 3 */
