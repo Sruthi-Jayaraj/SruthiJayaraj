@@ -23,6 +23,13 @@ body {
 	padding-left: 0px;
 	padding-right: 0px;
 }
+.col-md-8 {
+	padding-left: 0px;
+	padding-right: 0px;
+}
+.col-3 {
+	padding: 0px 15px 0px 0px;
+}
 .gg-icon {
 	margin: 30px 8px 8px 8px;
 }
@@ -46,7 +53,7 @@ body {
 	padding-top: 30px
 }
 .social-media-links {
-	margin: 80px 50px 50px 50px;
+	margin: 70px 30px 30px 50px;
 	font-family: 'Adamina', serif;
 	font-weight: 600px;
 }
@@ -56,7 +63,7 @@ body {
 	margin-right: 5px;
 }
 .fa-top {
-	font-size: 35px;
+	font-size: 25px;
 	margin-right: 10px;
 	color: #492D31;
 }
@@ -666,7 +673,7 @@ footer i {
 }
 .footer-style {
 	background-color: #613642; 
-	padding: 50px;
+	padding: 10px;
 }
 .footer-icon {
 	padding: 25px;
