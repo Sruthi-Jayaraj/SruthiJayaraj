@@ -363,10 +363,11 @@ body {
 	display: block;
     width: 10px;
     text-align: center;
-    font-size: 15px;
+    font-size: 12px;
     position: absolute;
-    bottom: -50px;
-    right: 10px;
+    bottom: -70px;
+    right: -5px;
+    padding: 20px;
 }
 .charts {
 	width: 100%;
@@ -666,4 +667,7 @@ footer i {
 .footer-style {
 	background-color: #613642; 
 	padding: 50px;
+}
+.footer-icon {
+	padding: 25px;
 }
