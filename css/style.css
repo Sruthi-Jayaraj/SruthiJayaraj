@@ -98,7 +98,7 @@ body {
 	background-color: #362A2E;
 	margin: 20px;
 	border-radius: 10px;
-	height: 350px;
+	height: 380px;
 }
 .one h1 {
 	margin-left: 30px;
@@ -285,7 +285,7 @@ body {
 }
 .timeline-heading {
 	font-family: 'Righteous', cursive;
-	font-size: 40px;
+	font-size: 30px;
 }
 .content-hover:hover {
 	color: #F37B83;
@@ -378,7 +378,7 @@ body {
     position: absolute;
     bottom: -70px;
     right: -5px;
-    padding: 20px;
+    padding: 40px;
 }
 .charts {
 	width: 100%;
