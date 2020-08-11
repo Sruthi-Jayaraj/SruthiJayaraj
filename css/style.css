@@ -672,7 +672,7 @@ a.button:hover {
 	margin: 50px 0px 50px 0px; 
 	font-size: 40px;
 }
-footer i {
+.footer-style i {
 	color: #F37B83;
 }
 .footer-style {
@@ -680,5 +680,5 @@ footer i {
 	padding: 10px;
 }
 .footer-icon {
-	padding: 25px;
+	padding: 15px;
 }
