@@ -28,9 +28,9 @@ Certified: AZ-900
 
 ### Technology & Design Used for Website
 
-* State of the art architecture thanks to `HTML5`, `CSS` and `jQuery` and `JavaScript`
-* This is a Static Responsive Website
-* Consistent and sophisticated use of modern components such as `Bootstrap 4`, , `SVG`, `GoogleFonts`, `Favicons`  & more
+* State of the art architectureL: `HTML5`, `CSS` and `jQuery` and `JavaScript`.
+* This is a Static Responsive Website.
+* Consistent and sophisticated use of modern components such as `Bootstrap 4`, `SVG`, `GoogleFonts`, `Favicons`  & more...
 
 
 ## Website
