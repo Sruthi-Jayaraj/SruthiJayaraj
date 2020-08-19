@@ -1,3 +1,5 @@
+# SRUTHI JAYARAJ
+
 <p align="center">
 	<a href="https://www.sruthijayaraj.co" target="_blank">
 		<img src="images/sj.png" alt="Sruthi Jayaraj" width="200">
